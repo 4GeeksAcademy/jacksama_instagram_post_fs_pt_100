@@ -56,10 +56,11 @@ table {
 
 main {
     display: flex;
+    justify-content: center;
 }
 
-.mytitle {
-    color: red;
+.h1 {
+    color: white;
 }
 
 .card {
@@ -67,7 +68,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 70%;
+    max-width: 40%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -93,9 +94,6 @@ main {
 }
 
 .card-icons {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
     font-size: 24px;
 }
 
@@ -105,7 +103,12 @@ main {
 
 .footer {
     display: flex;
+    justify-content: space-between;
     padding: 1rem;
+}
+
+.icon-save {
+    justify-content: space-between;
 }
 
 .html-icon {
